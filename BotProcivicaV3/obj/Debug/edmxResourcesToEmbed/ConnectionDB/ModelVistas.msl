@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelVistasStoreContainer" CdmEntityContainer="Chatbot_PGBEntities1">
+    <EntitySetMapping Name="desc_tipo_caso_denuncia">
+      <EntityTypeMapping TypeName="ModelVistas.desc_tipo_caso_denuncia">
+        <MappingFragment StoreEntitySet="desc_tipo_caso_denuncia">
+          <ScalarProperty Name="tipocaso" ColumnName="tipocaso" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="folio" ColumnName="folio" />
+          <ScalarProperty Name="idciudadano" ColumnName="idciudadano" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="nombre_funcionario" ColumnName="nombre_funcionario" />
+          <ScalarProperty Name="nombre_dependencia" ColumnName="nombre_dependencia" />
+          <ScalarProperty Name="fecha_registro" ColumnName="fecha_registro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

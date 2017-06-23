@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Chatbot_PGBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Casos">
+    <Key>
+      <PropertyRef Name="idcaso" />
+    </Key>
+    <Property Name="idcaso" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idtipocaso" Type="int" Nullable="false" />
+    <Property Name="idstatus" Type="int" Nullable="false" />
+    <Property Name="folio" Type="varchar" MaxLength="10" />
+    <Property Name="idciudadano" Type="int" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="descripcion" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="nombre_funcionario" Type="varchar" MaxLength="50" />
+    <Property Name="nombre_dependencia" Type="varchar" MaxLength="50" />
+    <Property Name="fecha_registro" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="Chatbot_PGBModelStoreContainer">
+    <EntitySet Name="Casos" EntityType="Self.Casos" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

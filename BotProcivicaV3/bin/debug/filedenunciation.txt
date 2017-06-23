@@ -1,0 +1,1 @@
+ID tipo caso: 2|ID Status: 1|Folio: CA1_2|ID Ciudadano: 1|Nombre: Carlos Lopez|Email: arlos@hotmail.com|Descripción: Esto es una prueba|Funcionario: Marcos|Dependencia: No lo sé|Fecha: 12/05/2017 20:20:53

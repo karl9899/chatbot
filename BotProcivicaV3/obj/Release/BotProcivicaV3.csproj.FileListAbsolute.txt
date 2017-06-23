@@ -1,0 +1,48 @@
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\Bot Application1.dll.config
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\Bot Application1.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\Bot Application1.pdb
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\Autofac.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\Chronic.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\EntityFramework.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\EntityFramework.SqlServer.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\Microsoft.Bot.Builder.Autofac.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\Microsoft.Bot.Builder.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\Microsoft.Bot.Connector.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\Newtonsoft.Json.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\RestSharp.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\System.Net.Http.Formatting.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\System.Web.Http.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\System.Web.Http.WebHost.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\Autofac.xml
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\EntityFramework.xml
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\EntityFramework.SqlServer.xml
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\Microsoft.Bot.Builder.xml
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\Microsoft.Bot.Builder.Autofac.xml
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\Microsoft.Bot.Connector.xml
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\Newtonsoft.Json.xml
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\RestSharp.xml
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\System.Net.Http.Formatting.xml
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\System.Web.Http.xml
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\System.Web.Http.WebHost.xml
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\cs\Microsoft.Bot.Builder.resources.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\obj\Release\BotProcivicaV3.csprojResolveAssemblyReference.cache
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\obj\Release\Bot Application1.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicaV3\BotProcivicaV3\obj\Release\Bot Application1.pdb
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicav3\BotProcivicaV3\bin\AutoMapper.dll
+C:\Users\ESCUELA\Documents\GitHub\BotProcivicav3\BotProcivicaV3\bin\AutoMapper.xml

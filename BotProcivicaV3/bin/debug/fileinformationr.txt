@@ -1,0 +1,1 @@
+ID tipo caso: 4|ID Status: 1|Folio: CA1_4|ID Ciudadano: 1|Nombre: Carlos Lopez|Email: arlos@hotmail.com|Descripción: Esto es una prueba|Fecha: 12/05/2017 20:19:25

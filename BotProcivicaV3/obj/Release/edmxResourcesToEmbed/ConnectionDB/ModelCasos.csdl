@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Chatbot_PGBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Casos">
+    <Key>
+      <PropertyRef Name="idcaso" />
+    </Key>
+    <Property Name="idcaso" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idtipocaso" Type="Int32" Nullable="false" />
+    <Property Name="idstatus" Type="Int32" Nullable="false" />
+    <Property Name="folio" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="idciudadano" Type="Int32" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="descripcion" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="nombre_funcionario" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nombre_dependencia" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="fecha_registro" Type="DateTime" Nullable="false" Precision="0" />
+  </EntityType>
+  <EntityContainer Name="Chatbot_PGBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Casos" EntityType="Self.Casos" />
+  </EntityContainer>
+</Schema>

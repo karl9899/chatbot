@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="ChatBotProcivica" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\ESCUELA\\Documents\\GitHub\\BotProcivicav3\\BotProcivicaV3\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\ESCUELA\\Documents\\GitHub\\BotProcivicav3\\BotProcivicaV3\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Add write permission to App_Data Folder" description="Add write permission to App_Data folder" value="ChatBotProcivica/App_Data" tags="Hidden">
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\ESCUELA\\Documents\\GitHub\\BotProcivicav3\\BotProcivicaV3\\obj\\Release\\Package\\PackageTmp\\App_Data$" />
+  </parameter>
+  <parameter name="Chatbot_PGBEntities-Web.config Connection String" description="" value="metadata=res://*/ConnectionDB.ModelCasos.csdl|res://*/ConnectionDB.ModelCasos.ssdl|res://*/ConnectionDB.ModelCasos.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=104.42.105.210;Initial Catalog=Chatbot_PGB;User ID=chatbot;Password=_chat1234*;MultipleActiveResultSets=True;Application Name=EntityFramework&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ESCUELA\\Documents\\GitHub\\BotProcivicav3\\BotProcivicaV3\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Chatbot_PGBEntities']/@connectionString" />
+  </parameter>
+  <parameter name="Chatbot_PGBEntities1-Web.config Connection String" description="" value="metadata=res://*/ConnectionDB.BotDataModel.csdl|res://*/ConnectionDB.BotDataModel.ssdl|res://*/ConnectionDB.BotDataModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=104.42.105.210;initial catalog=Chatbot_PGB;user id=chatbot;password=_chat1234*;multipleactiveresultsets=True;application name=EntityFramework&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ESCUELA\\Documents\\GitHub\\BotProcivicav3\\BotProcivicaV3\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Chatbot_PGBEntities1']/@connectionString" />
+  </parameter>
+</parameters>

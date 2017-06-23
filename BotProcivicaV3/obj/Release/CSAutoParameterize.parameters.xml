@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="Chatbot_PGBEntities-Web.config Connection String" description="Chatbot_PGBEntities Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="metadata=res://*/ConnectionDB.ModelCasos.csdl|res://*/ConnectionDB.ModelCasos.ssdl|res://*/ConnectionDB.ModelCasos.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=104.42.105.210;initial catalog=Chatbot_PGB;user id=chatbot;password=_chat1234*;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ESCUELA\\Documents\\GitHub\\BotProcivicav3\\BotProcivicaV3\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Chatbot_PGBEntities']/@connectionString" />
+  </parameter>
+  <parameter name="Chatbot_PGBEntities1-Web.config Connection String" description="Chatbot_PGBEntities1 Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="metadata=res://*/ConnectionDB.BotDataModel.csdl|res://*/ConnectionDB.BotDataModel.ssdl|res://*/ConnectionDB.BotDataModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=104.42.105.210;initial catalog=Chatbot_PGB;user id=chatbot;password=_chat1234*;multipleactiveresultsets=True;application name=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ESCUELA\\Documents\\GitHub\\BotProcivicav3\\BotProcivicaV3\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Chatbot_PGBEntities1']/@connectionString" />
+  </parameter>
+</parameters>

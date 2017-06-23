@@ -1,0 +1,1 @@
+ID tipo caso: 2|ID Status: 1|Folio: C1_2|ID Ciudadano: 1|Nombre: Carlos Mejia|Email: carlos@propulsar.com|Descripción: hola|Funcionario: Jose Miguel|Dependencia: IoG|Fecha: 11/05/2017 1:43:48

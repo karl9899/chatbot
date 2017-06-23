@@ -1,0 +1,1 @@
+ID tipo caso: 1|ID Status: 1|Folio: CA1_1|ID Ciudadano: 1|Nombre: Carlos Lopez|Email: carlos@propulsar.com|Descripción: Prueba 1 mayo 16|Fecha: 16/05/2017 23:42:07

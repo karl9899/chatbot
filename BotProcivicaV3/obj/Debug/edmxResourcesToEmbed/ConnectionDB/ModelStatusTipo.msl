@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Chatbot_PGBModel1StoreContainer" CdmEntityContainer="Chatbot_PGBEntitiesSTC">
+    <EntitySetMapping Name="CasosStatus">
+      <EntityTypeMapping TypeName="Chatbot_PGBModel1.CasosStatus">
+        <MappingFragment StoreEntitySet="CasosStatus">
+          <ScalarProperty Name="idstatus" ColumnName="idstatus" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipoCasos">
+      <EntityTypeMapping TypeName="Chatbot_PGBModel1.TipoCasos">
+        <MappingFragment StoreEntitySet="TipoCasos">
+          <ScalarProperty Name="idtipocaso" ColumnName="idtipocaso" />
+          <ScalarProperty Name="tipocaso" ColumnName="tipocaso" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

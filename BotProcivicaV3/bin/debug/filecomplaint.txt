@@ -1,0 +1,1 @@
+ID tipo caso: 3|ID Status: 1|Folio: CA1_3|ID Ciudadano: 1|Nombre: Carlos Sánchez|Email: carlos@algo.com|Descripción: Prueba numero 2 mayo 12|Fecha: 12/05/2017 14:42:17

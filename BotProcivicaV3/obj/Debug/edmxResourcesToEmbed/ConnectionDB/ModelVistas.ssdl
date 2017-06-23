@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ModelVistas.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'Chatbot_PGB.dbo.desc_tipo_caso_denuncia' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="desc_tipo_caso_denuncia">
+    <Key>
+      <PropertyRef Name="tipocaso" />
+      <PropertyRef Name="status" />
+      <PropertyRef Name="idciudadano" />
+      <PropertyRef Name="nombre" />
+      <PropertyRef Name="email" />
+      <PropertyRef Name="descripcion" />
+      <PropertyRef Name="fecha_registro" />
+    </Key>
+    <Property Name="tipocaso" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="status" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="folio" Type="varchar" MaxLength="10" />
+    <Property Name="idciudadano" Type="int" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="descripcion" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="nombre_funcionario" Type="varchar" MaxLength="50" />
+    <Property Name="nombre_dependencia" Type="varchar" MaxLength="50" />
+    <Property Name="fecha_registro" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="ModelVistasStoreContainer">
+    <EntitySet Name="desc_tipo_caso_denuncia" EntityType="Self.desc_tipo_caso_denuncia" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [desc_tipo_caso_denuncia].[tipocaso] AS [tipocaso], 
+    [desc_tipo_caso_denuncia].[status] AS [status], 
+    [desc_tipo_caso_denuncia].[folio] AS [folio], 
+    [desc_tipo_caso_denuncia].[idciudadano] AS [idciudadano], 
+    [desc_tipo_caso_denuncia].[nombre] AS [nombre], 
+    [desc_tipo_caso_denuncia].[email] AS [email], 
+    [desc_tipo_caso_denuncia].[descripcion] AS [descripcion], 
+    [desc_tipo_caso_denuncia].[nombre_funcionario] AS [nombre_funcionario], 
+    [desc_tipo_caso_denuncia].[nombre_dependencia] AS [nombre_dependencia], 
+    [desc_tipo_caso_denuncia].[fecha_registro] AS [fecha_registro]
+    FROM [dbo].[desc_tipo_caso_denuncia] AS [desc_tipo_caso_denuncia]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

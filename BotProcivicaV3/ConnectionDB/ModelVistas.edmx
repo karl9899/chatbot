@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="ModelVistas.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'Chatbot_PGB.dbo.desc_tipo_caso_denuncia' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <EntityType Name="desc_tipo_caso_denuncia">
+          <Key>
+            <PropertyRef Name="tipocaso" />
+            <PropertyRef Name="status" />
+            <PropertyRef Name="idciudadano" />
+            <PropertyRef Name="nombre" />
+            <PropertyRef Name="email" />
+            <PropertyRef Name="descripcion" />
+            <PropertyRef Name="fecha_registro" />
+          </Key>
+          <Property Name="tipocaso" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="status" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="folio" Type="varchar" MaxLength="10" />
+          <Property Name="idciudadano" Type="int" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="email" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="descripcion" Type="varchar" MaxLength="250" Nullable="false" />
+          <Property Name="nombre_funcionario" Type="varchar" MaxLength="50" />
+          <Property Name="nombre_dependencia" Type="varchar" MaxLength="50" />
+          <Property Name="fecha_registro" Type="date" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="ModelVistasStoreContainer">
+          <EntitySet Name="desc_tipo_caso_denuncia" EntityType="Self.desc_tipo_caso_denuncia" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [desc_tipo_caso_denuncia].[tipocaso] AS [tipocaso], 
+    [desc_tipo_caso_denuncia].[status] AS [status], 
+    [desc_tipo_caso_denuncia].[folio] AS [folio], 
+    [desc_tipo_caso_denuncia].[idciudadano] AS [idciudadano], 
+    [desc_tipo_caso_denuncia].[nombre] AS [nombre], 
+    [desc_tipo_caso_denuncia].[email] AS [email], 
+    [desc_tipo_caso_denuncia].[descripcion] AS [descripcion], 
+    [desc_tipo_caso_denuncia].[nombre_funcionario] AS [nombre_funcionario], 
+    [desc_tipo_caso_denuncia].[nombre_dependencia] AS [nombre_dependencia], 
+    [desc_tipo_caso_denuncia].[fecha_registro] AS [fecha_registro]
+    FROM [dbo].[desc_tipo_caso_denuncia] AS [desc_tipo_caso_denuncia]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ModelVistas" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="desc_tipo_caso_denuncia">
+          <Key>
+            <PropertyRef Name="tipocaso" />
+            <PropertyRef Name="status" />
+            <PropertyRef Name="idciudadano" />
+            <PropertyRef Name="nombre" />
+            <PropertyRef Name="email" />
+            <PropertyRef Name="descripcion" />
+            <PropertyRef Name="fecha_registro" />
+          </Key>
+          <Property Name="tipocaso" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="folio" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="idciudadano" Type="Int32" Nullable="false" />
+          <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="descripcion" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="nombre_funcionario" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="nombre_dependencia" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="fecha_registro" Type="DateTime" Nullable="false" Precision="0" />
+        </EntityType>
+        <EntityContainer Name="Chatbot_PGBEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="desc_tipo_caso_denuncia" EntityType="Self.desc_tipo_caso_denuncia" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ModelVistasStoreContainer" CdmEntityContainer="Chatbot_PGBEntities1">
+          <EntitySetMapping Name="desc_tipo_caso_denuncia">
+            <EntityTypeMapping TypeName="ModelVistas.desc_tipo_caso_denuncia">
+              <MappingFragment StoreEntitySet="desc_tipo_caso_denuncia">
+                <ScalarProperty Name="tipocaso" ColumnName="tipocaso" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="folio" ColumnName="folio" />
+                <ScalarProperty Name="idciudadano" ColumnName="idciudadano" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+                <ScalarProperty Name="nombre_funcionario" ColumnName="nombre_funcionario" />
+                <ScalarProperty Name="nombre_dependencia" ColumnName="nombre_dependencia" />
+                <ScalarProperty Name="fecha_registro" ColumnName="fecha_registro" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
